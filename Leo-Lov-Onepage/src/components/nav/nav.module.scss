@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.minNavbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Inter", sans-serif;
+    width: auto;
+    height: auto;
+    background-color: #fafafa;
+}
+.minNavbar ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        color: #002bc2;
+        padding: 14px 16px;
+    }
+    .minNavbar ul li{
+        margin-right: 2rem;
+        
+    }
+    .minNavbar p{
+        font-size: 32px;
+        justify-self: end;
+    }
+    .minNavbar span{
+        color: #002bc2;
+    }

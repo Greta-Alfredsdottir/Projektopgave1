@@ -1,0 +1,31 @@
+
+
+.minMain section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 5px #2c3b6f;
+    
+    
+}
+.minMain img{
+    max-width: 100%;
+    height: auto;
+    border: solid 5px #2c3b6f;
+    
+}
+
+div{
+    text-align: center;
+    
+}
+div figure h2{
+    color: #002bc2;
+}
+.MødHoldet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    figure{
+        text-align: center;
+    }
+}
